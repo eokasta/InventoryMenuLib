@@ -49,6 +49,7 @@ public class InventoryListener implements Listener {
 
             final InventoryGUI inventoryGUI = (InventoryGUI) event.getInventory().getHolder();
             inventoryGUI.onClick(event);
+            //
         }
     }
 }
